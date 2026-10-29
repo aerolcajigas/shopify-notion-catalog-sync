@@ -1,0 +1,12 @@
+{
+  "shop": "your-store.myshopify.com",
+  "apiVersion": "2026-07",
+  "databaseId": "NOTION_DATABASE_ID",
+  "everyMinutes": 30,
+  "lowStock": 5,
+  "startFrom": "2000-01-01T00:00:00Z",
+  "credentials": {
+    "shopify": { "id": "SHOPIFY_CREDENTIAL_ID", "name": "Shopify Access Token" },
+    "notion": { "id": "NOTION_CREDENTIAL_ID", "name": "Notion API" }
+  }
+}
